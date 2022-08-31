@@ -7,7 +7,7 @@ var css;
 color1.addEventListener('input', ()=>{
     button.textContent = "Copy css";
     bg.style.backgroundImage="linear-gradient(to right,"+color1.value+","+color2.value+")";
-    h3.textContent = color1.value + "  " + color2.value;
+    h3.textContent = color1.value + " , " + color2.value;
     css = "background-image: linear-gradient(to right," + h3.textContent + ");";
 });
 color2.addEventListener('input', () => {
